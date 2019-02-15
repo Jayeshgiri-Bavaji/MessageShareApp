@@ -6,5 +6,8 @@
 
     <string name="button_click">Button is clicked!!!</string>
     <string name="button_click_again">Toast Again Button Clicked!!!</string>
+    <string name="send_to_activity">Send Data To Next Activity</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="send_to_social_activity">Send To Social Activity</string>
 
 </resources>

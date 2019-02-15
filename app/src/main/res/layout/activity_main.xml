@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
 
@@ -16,11 +17,29 @@
         android:text="@string/button_show_toast" />
 
     <Button
-        android:id="@+id/btnShowToastAgain"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnSendToActivity"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="165dp"
-        android:text="@string/button_show_toast_again" />
+        android:layout_marginTop="335dp"
+        android:text="@string/send_to_activity" />
+
+    <EditText
+        android:id="@+id/etUserMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_name" />
+
+    <Button
+        android:id="@+id/btnShareToOtherActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/btnSendToActivity"
+        android:layout_alignParentEnd="true"
+        android:text="@string/send_to_social_activity" />
 </RelativeLayout>
