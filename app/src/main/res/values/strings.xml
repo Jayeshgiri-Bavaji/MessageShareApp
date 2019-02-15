@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MessageShareApp</string>
+
+    <string name="button_show_toast">Show Toast</string>
+    <string name="button_show_toast_again">Show Toast Again</string>
+
+    <string name="button_click">Button is clicked!!!</string>
+    <string name="button_click_again">Toast Again Button Clicked!!!</string>
+
 </resources>
