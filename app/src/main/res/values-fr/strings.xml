@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MessageShareApp</string>
+
+    <string name="button_show_toast">Montrer le pain grillé</string>
+    <string name="button_show_toast_again">Montrer Toast Again</string>
+
+    <string name="button_click">Le bouton est cliqué !!!</string>
+    <string name="button_click_again">Toast Again Button Cliqué !!!</string>
+    <string name="send_to_activity">Envoyer les données à l\'activité suivante</string>
+    <string name="enter_name">Entrez votre nom</string>
+    <string name="send_to_social_activity">Envoyer à l\'activité sociale</string>
+    <string name="recyclerview_and_cardview_demo">Recycler View et Card View Demo</string>
+
+</resources>

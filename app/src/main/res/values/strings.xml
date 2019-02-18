@@ -9,5 +9,6 @@
     <string name="send_to_activity">Send Data To Next Activity</string>
     <string name="enter_name">Enter your name</string>
     <string name="send_to_social_activity">Send To Social Activity</string>
+    <string name="recyclerview_and_cardview_demo">Recycler View and Card View Demo</string>
 
 </resources>

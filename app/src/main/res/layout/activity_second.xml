@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context=".SecondActivity">
+    tools:context=".activities.SecondActivity">
 
     <TextView
         android:id="@+id/txtUserMessage"
@@ -15,5 +15,5 @@
         android:textAlignment="center"
         android:textColor="#44ff00"
         android:textStyle="bold"
-        android:text="TextView" />
+        android:text="" />
 </LinearLayout>

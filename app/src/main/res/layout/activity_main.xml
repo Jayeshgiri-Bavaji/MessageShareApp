@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
 
     <Button
@@ -31,8 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="@string/enter_name" />
+        android:hint="@string/enter_name"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/btnShareToOtherActivity"
@@ -42,4 +42,12 @@
         android:layout_below="@+id/btnSendToActivity"
         android:layout_alignParentEnd="true"
         android:text="@string/send_to_social_activity" />
+
+    <Button
+        android:id="@+id/btnRecyclerViewDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnShareToOtherActivity"
+        android:layout_centerHorizontal="true"
+        android:text="@string/recyclerview_and_cardview_demo" />
 </RelativeLayout>
